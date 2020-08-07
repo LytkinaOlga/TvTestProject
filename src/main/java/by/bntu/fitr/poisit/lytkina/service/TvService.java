@@ -13,7 +13,7 @@ public class TvService {
     }
 
     public boolean ifOne(){
-        logger.info("checking if the TV is on (in trunk)");
+        logger.info("checking if the TV is on");
         return tv.isOn();
     }
 }
